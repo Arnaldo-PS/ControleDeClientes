@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos\\ControleContatos.csproj": {}
+    "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos\\ControleContatos.csproj": {
+    "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos\\ControleContatos.csproj",
+        "projectUniqueName": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos.csproj",
         "projectName": "ControleContatos",
-        "projectPath": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos\\ControleContatos.csproj",
+        "projectPath": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos.csproj",
         "packagesPath": "C:\\Users\\Arnaldo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos\\obj\\",
+        "outputPath": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arnaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
