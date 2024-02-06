@@ -1,4 +1,4 @@
-namespace ControleContatos.Models
+namespace ControleClientes.Models
 {
     public class ErrorViewModel
     {

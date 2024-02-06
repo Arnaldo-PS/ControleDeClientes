@@ -4022,9 +4022,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos.csproj",
-      "projectName": "ControleContatos",
-      "projectPath": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos.csproj",
+      "projectUniqueName": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleClientes.csproj",
+      "projectName": "ControleClientes",
+      "projectPath": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleClientes.csproj",
       "packagesPath": "C:\\Users\\Arnaldo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\obj\\",
       "projectStyle": "PackageReference",
