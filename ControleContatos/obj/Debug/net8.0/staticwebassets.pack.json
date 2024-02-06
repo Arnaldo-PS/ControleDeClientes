@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ControleContatos.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ControleContatos.bundle.scp.css"
+      "Id": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ControleClientes.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ControleClientes.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ControleContatos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ControleClientes.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ControleContatos.props",
-      "PackagePath": "build\\ControleContatos.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ControleClientes.props",
+      "PackagePath": "build\\ControleClientes.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ControleContatos.props",
-      "PackagePath": "buildMultiTargeting\\ControleContatos.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ControleClientes.props",
+      "PackagePath": "buildMultiTargeting\\ControleClientes.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ControleContatos.props",
-      "PackagePath": "buildTransitive\\ControleContatos.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ControleClientes.props",
+      "PackagePath": "buildTransitive\\ControleClientes.props"
     }
   ],
   "ElementsToRemove": []

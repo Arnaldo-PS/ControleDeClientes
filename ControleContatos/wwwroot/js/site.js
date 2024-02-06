@@ -3,7 +3,7 @@
 
 // Write your JavaScript code.
 
-let table = new DataTable('#table-contatos', {
+let table = new DataTable('#table-clientes', {
     "ordering": true,
     "paging": true,
     "searching": true,

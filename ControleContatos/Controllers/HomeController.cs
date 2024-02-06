@@ -1,8 +1,8 @@
-using ControleContatos.Models;
+using ControleClientes.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ControleContatos.Controllers
+namespace ControleClientes.Controllers
 {
     public class HomeController : Controller
     {

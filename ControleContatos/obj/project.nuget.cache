@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KpeddE2vRF7jylo707ErXx8e+6eWkGdwNJGe4Xk1wHCtapu9IHpLWA+a3Gso3mzk7uNVMFDueEHWXZs4FGZgaA==",
+  "dgSpecHash": "HIeXQiyd2vTxS93jUlBtXnY+4fYG0OVbBkqHnXucvg/AjtkfeYazddCtfxf9s+xmDG+nkydy8i5k1e08vm1QgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleContatos.csproj",
+  "projectFilePath": "C:\\Users\\Arnaldo\\Documents\\Projetos\\Site ASP.NET MVC\\ControleContatos\\ControleContatos\\ControleClientes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arnaldo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Arnaldo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -1,7 +1,7 @@
-﻿using ControleContatos.Models;
+﻿using ControleClientes.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ControleContatos.Data
+namespace ControleClientes.Data
 {
     public class BancoContext : DbContext
     {
@@ -9,6 +9,9 @@ namespace ControleContatos.Data
         {
         }
 
-        public DbSet<ContatoModel> Contatos { get; set; }
+        public DbSet<ClienteModel> Clientes { get; set; }
+        public DbSet<UsuarioModel> Usuarios { get; set; }
+        public DbSet<EnderecoModel> Enderecos { get; set; }
+
     }
 }
