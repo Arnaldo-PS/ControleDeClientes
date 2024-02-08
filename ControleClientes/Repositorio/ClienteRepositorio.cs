@@ -29,7 +29,7 @@ namespace ControleClientes.Repositorio
 
         public ClienteModel Adicionar(ClienteModel cliente)
         {
-
+            cliente.DataCadastro = DateTime.Now;
             // salvar cliente no banco de dados
             _bancoContext.Clientes.Add(cliente);
             _bancoContext.SaveChanges();
@@ -50,6 +50,7 @@ namespace ControleClientes.Repositorio
             clienteDB.Nome = cliente.Nome;
             clienteDB.Email = cliente.Email;
             clienteDB.Celular = cliente.Celular;
+            clienteDB.DataAlteracao = DateTime.Now;
 
             // atualizando o cliente no banco de dados
             _bancoContext.Clientes.Update(clienteDB);

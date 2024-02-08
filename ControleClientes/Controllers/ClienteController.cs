@@ -102,7 +102,7 @@ namespace ControleClientes.Controllers
                     TempData["MensagemSucesso"] = "Cliente alterado com sucesso";
                     return RedirectToAction("Index");
                 }
-                return View("Editar", cliente);
+                return View("Editar",cliente);
             }
             catch (Exception ex)
             {

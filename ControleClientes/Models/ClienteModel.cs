@@ -19,8 +19,10 @@ namespace ControleClientes.Models
         // valida se o telefone é valido
         [Phone(ErrorMessage ="Utilize um número de celular válido!")]
         public string Celular { get; set; }
-        public int EnderecoId { get; set; }
-        public EnderecoModel Endereco { get; set; }
+
+        //public int EnderecoId { get; set; }
+        //public EnderecoModel Endereco { get; set; }
+
         public DateTime DataCadastro { get; set; }
         public DateTime? DataAlteracao { get; set; }
     }
