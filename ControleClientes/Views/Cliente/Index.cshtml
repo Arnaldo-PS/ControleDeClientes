@@ -4,11 +4,6 @@
 }
 
 <div class="text-center">
-    <div class="d-grip gap-2 d-md-flex justify-content-md-start">
-        <a role="button" class="btn btn-success" asp-controller="Cliente" asp-action="Criar">Adicionar</a>
-    </div>
-
-    <br />
 
     @if (TempData["MensagemSucesso"] != null)
     {
@@ -17,8 +12,6 @@
             @TempData["MensagemSucesso"]
         </div>
     }
-
-    <br />
 
     @if (TempData["MensagemErro"] != null)
     {
@@ -30,7 +23,13 @@
 
     <h1 class="display-5">Clientes</h1>
 
-    <table class="table table-striped" id="table-clientes">
+    <div class="d-grip gap-2 d-md-flex justify-content-md-start">
+        <a role="button" class="btn btn-success" asp-controller="Cliente" asp-action="Criar">Adicionar</a>
+    </div>
+
+    <br />
+
+    <table class="table" id="table-clientes">
         <thead>
             <tr>
                 <th class="text-center" scope="col">#</th>
