@@ -4,11 +4,6 @@
 }
 
 <div class="text-center">
-    <div class="d-grip gap-2 d-md-flex justify-content-md-start">
-        <a role="button" class="btn btn-success" asp-controller="Usuario" asp-action="Criar">Adicionar</a>
-    </div>
-
-    <br />
 
     @if (TempData["MensagemSucesso"] != null)
     {
@@ -18,8 +13,6 @@
         </div>
     }
 
-    <br />
-
     @if (TempData["MensagemErro"] != null)
     {
         <div class="alert alert-danger" role="alert">
@@ -28,15 +21,22 @@
         </div>
     }
 
-    <h1 class="display-4">Usuarios</h1>
+    <h1 class="display-5">Usuarios</h1>
 
-    <table class="table table-striped" id="table-usuarios">
+    <div class="d-grip gap-2 d-md-flex justify-content-md-start">
+        <a role="button" class="btn btn-success" asp-controller="Usuario" asp-action="Criar">Adicionar</a>
+    </div>
+
+    <br />
+
+    <table class="table" id="table-usuarios">
         <thead>
             <tr>
                 <th class="text-center" scope="col">#</th>
                 <th class="text-center" scope="col">Nome</th>
                 <th class="text-center" scope="col">Login</th>
                 <th class="text-center" scope="col">Email</th>
+                <th class="text-center" scope="col">Perfil</th>
                 <th class="text-center" scope="col">Desde</th>
                 <th class="text-center" scope="col">
 
@@ -54,6 +54,7 @@
                         <td>@usuario.Nome</td>
                         <td>@usuario.Login</td>
                         <td>@usuario.Email</td>
+                        <td>@usuario.Perfil</td>
                         <td>@usuario.DataCadastro</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic mixed styles example">
