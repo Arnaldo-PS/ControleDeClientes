@@ -15,7 +15,7 @@ Após clonar o conteúdo do repositório e executar a solução, realize o downl
 dotnet restore
 ```
 
-Após o download, adapte as configurações de banco no arquivo BancoContext da pasta Data e realize as migrations através dos comandos:
+Após o download, adapte as configurações de banco no arquivo appsettings.json e realize as migrations através dos comandos:
 
 ```
 Add-Migration NomeDaMigracaoInicial -Context BancoContext
